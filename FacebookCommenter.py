@@ -22,7 +22,18 @@ def commenter():
     ### differences occures at string possitons 28, 46, 64, 92, 110, 128, 158, 176, 194
     ### all we have to do is changing the number loop itrations on those numbers 1... up to whatever
 
-    
+    ### this is link to open a specfic post in a page posts. 
+    ### this will simply open the comments commented on this specfic post
+    ### this will help to open posts comment by looping from one post comment to another
+    comment_opening_link_facebook_PAGE = """/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div[2]/div/div[2]/div[3]/div[1]/div/div/div/div/div/div/div/div/div/div/div[8]/div/div/div[4]/div/div/div[1]/div/div[1]/div/div[2]/div[2]/span/div/span"""
+    ### differences occures at string possitons 82, 86, 110
+    ### all we have to do is changing the number loop itrations on those numbers 1... up to whatever
+
+    ### THIS IS the replay comment link xpath. to replay comments inside a specific posts.
+    ### this is to open the replay comment feald
+    replaycomment_opening_link_facebook_PAGE = """/html/body/div[1]/div/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[3]/div[1]/div/div/div/div[1]/div/div[2]/div[2]/ul/li[3]/div/div"""
+    ### differences occures at string possitons  110,179
+
     commentLineXpath = ''
 
     time.sleep(15)
